@@ -1,0 +1,27 @@
+1. Install node js latest version
+
+2. Download latest selenium standalone sarver
+
+3. Download the latest version geckodriver for FireFox and unpack it in project directory
+ 
+4. Start selenium standalone server
+
+5. Download WebdriverIO
+
+6. Create a config file to run WebdriverIO with the test rnner
+
+./node_modules/.bin/wdio config
+
+7. Create a test folder for all the test script
+
+8. Instal chai assertion package
+
+9. Execute the test runner 
+
+./node_modules/.bin/wdio wdio.conf.js
+
+10. To execute individual script, use following command from the script folder
+
+$ node script.js
+
+ 
